@@ -1,5 +1,4 @@
 import { $, component$, useComputed$, useSignal } from "@builder.io/qwik";
-import type { DocumentHead } from "@builder.io/qwik-city";
 import { GitHubLink } from "~/components/GitHubLink/GitHubLink";
 
 export const cache: Record<string, any> = {};
