@@ -157,14 +157,3 @@ export default component$(() => {
     </div>
   );
 });
-
-export const head: DocumentHead = {
-  title: "Git Co-authored-by message generator",
-  meta: [
-    {
-      name: "description",
-      content:
-        "Creating a Git commit with multiple authors, tool to automatically generate Git Co-authored-by message",
-    },
-  ],
-};
