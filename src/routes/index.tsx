@@ -52,15 +52,15 @@ export default component$(() => {
           Git co-author(s) commit message generator
         </label>
 
-        <div class="mx-auto max-w-sm">
+        <div>
           <label
             for="message"
-            class="mb-4 mt-8 block text-lg font-medium text-gray-500"
+            class="mb-4 mt-6 block text-lg font-medium text-gray-500 text-center"
           >
-            Creating Git commit message to add co-author(s) is a mess. Add the
-            users below and I will generate the snippet for you.
+            Creating Git commit message to add co-author(s) is a mess.<br/>
+            Add the users below and I will generate the snippet for you.
           </label>
-          <div class="flex items-center border-b border-teal-500 py-2">
+          <div class="flex items-center border-b border-teal-500 py-2 mx-auto max-w-sm">
             <input
               class="mr-3 w-full appearance-none border-none bg-transparent px-2 py-1 leading-tight text-gray-700 focus:outline-none"
               type="text"
