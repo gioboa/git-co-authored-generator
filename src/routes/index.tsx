@@ -14,7 +14,7 @@ export default component$(() => {
     let message = initialMessage;
     authorsSig.value.map((a) => {
       const author = cache[a];
-      message += `\nCo-authored-by: ${author.name} <${author.id}+${author.login.toLowerCase()}@users.noreply.github.com>`;
+      message += `\nCo-authored-by: ${author.name || author.login} <${author.id}+${author.login.toLowerCase()}@users.noreply.github.com>`;
     });
     return message;
   });
