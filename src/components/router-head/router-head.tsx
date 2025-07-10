@@ -1,5 +1,5 @@
-import { component$ } from "@builder.io/qwik";
-import { useDocumentHead, useLocation } from "@builder.io/qwik-city";
+import { component$ } from "@qwik.dev/core";
+import { useDocumentHead, useLocation } from "@qwik.dev/router";
 
 export const DEFAULT_METADATA_URL = 'git-co-authored-generator.pages.dev';
 export const DEFAULT_METADATA_TITLE = 'Git co-author(s) commit message generator';

@@ -1,4 +1,4 @@
-import { $, component$, useComputed$, useSignal } from "@builder.io/qwik";
+import { $, component$, useComputed$, useSignal } from "@qwik.dev/core";
 import { GitHubLink } from "~/components/GitHubLink/GitHubLink";
 
 export const cache: Record<string, any> = {};
