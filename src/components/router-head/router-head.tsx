@@ -1,13 +1,13 @@
 import { component$ } from "@qwik.dev/core";
 import { useDocumentHead, useLocation } from "@qwik.dev/router";
 
-export const DEFAULT_METADATA_URL = 'git-co-authored-generator.pages.dev';
-export const DEFAULT_METADATA_TITLE = 'Git co-author(s) commit message generator';
+export const DEFAULT_METADATA_URL = "git-co-authored-generator.pages.dev";
+export const DEFAULT_METADATA_TITLE =
+  "Git co-author(s) commit message generator";
 export const DEFAULT_METADATA_DESCRIPTION =
-	'Creating Git/GitHub commit message to add co-author(s) is a mess. Add the users below and I will automatically generate the snippet for you.';
+  "Creating Git/GitHub commit message to add co-author(s) is a mess. Add the users below and I will automatically generate the snippet for you.";
 export const DEFAULT_METADATA_IMAGE =
-	'https://git-co-authored-generator.pages.dev/images/social_image.png';
-
+  "https://git-co-authored-generator.pages.dev/images/social_image.png";
 
 export const generateDocumentHead = (
   url = DEFAULT_METADATA_URL,
