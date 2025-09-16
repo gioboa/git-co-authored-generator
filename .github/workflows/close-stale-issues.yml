@@ -1,0 +1,26 @@
+name: Close Stale Issues
+
+on:
+  workflow_dispatch:
+
+jobs:
+  close-stale-issues:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+
+    steps:
+      - uses: actions/stale@v10
+        with:
+          days-before-stale: 0
+          days-before-close: 0
+          stale-issue-message: ""
+          close-issue-message: >
+            abc
+
+            foo
+
+            🧹 This issue is being automatically closed because it has had no activity in the last 6 months.
+            If you believe this issue is still relevant, feel free to comment below and the maintainers may reopen it. Thank you for your contribution.
+          stale-issue-label: "stale"
+          exempt-issue-labels: "pinned,security"
